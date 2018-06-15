@@ -1,0 +1,18 @@
+<body>
+  <h2 align=center>Enter your details</h2>
+  <form >
+    Enter Name:<br>
+    <input name="name" type="text" [(ngModel)]="name"/><br>
+    Enter Surname:<br>
+    <input name = "surname" type="text" [(ngModel)]="surname"/><br>
+    Enter Email:<br>
+    <input name="email" type="text" [(ngModel)]="email"/><br>
+    Enter Date of Booking:<br>
+    <input name="date" type="text" [(ngModel)]="date"/><br><br>
+
+  <!--<button (click)="onLogin()" type="Submit" value="Submit">Submit</button><br>-->
+    <button type="button" (click)="book()" value="Submit">Submit</button><br>
+  <br>
+    <button type="reset" value="Reset">Reset</button>
+  </form>
+</body>
